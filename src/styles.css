@@ -32,16 +32,18 @@ header {
 }
 
 main {
+  display: flex;
+  flex-flow: column-reverse;
   justify-content: space-between;
   margin-top: 2rem;
   padding: 2em 2em;
   border: 2px solid #ccc;
-  gap: 1rem;
+  gap: 3rem;
 }
 
-.recent-scores_heading {
+.recent-scores {
   gap: 1rem;
-  width: 45vw;
+  width: 80vw;
 }
 
 ul {
@@ -75,4 +77,11 @@ fieldset {
   padding: 0.1rem 0.3rem;
   box-shadow: 3px 3px 3px black;
   cursor: pointer;
+}
+
+@media only screen and (min-width: 650px) {
+  main {
+    display: flex;
+    flex-direction: row;
+  }
 }
