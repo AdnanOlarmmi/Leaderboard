@@ -84,4 +84,8 @@ fieldset {
     display: flex;
     flex-direction: row;
   }
+
+  .recent-scores {
+    max-width: 55%;
+  }
 }

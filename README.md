@@ -2,14 +2,6 @@
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This is a development about my developments
-- Here is the page preview
-
-> |     | Mobile version                      | Desktop version                      |     |
-> | --- | ----------------------------------- | ------------------------------------ | --- |
-> |     | ![Screenshot1](./images/portfolioM.png) | ![Screenshot2](./images/portfolioD.png) |
-
-
 > Learning objectives
 
 - I Used semantic HTML tags.
