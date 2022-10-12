@@ -1,0 +1,78 @@
+@font-face {
+  font-family: balsamiq;
+  src: url(../fonts/BalsamiqSans-Regular.ttf);
+  font-weight: bold;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: balsamiq, sans-serif;
+}
+
+body {
+  padding: 1rem;
+}
+
+header {
+  font-weight: bolder;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  justify-content: space-between;
+  margin-top: 2rem;
+  padding: 2em 2em;
+  border: 2px solid #ccc;
+  gap: 1rem;
+}
+
+.recent-scores_heading {
+  gap: 1rem;
+  width: 45vw;
+}
+
+ul {
+  list-style: none;
+  border: 3px solid black;
+  margin-top: 1rem;
+}
+
+li {
+  padding: 0.3em;
+}
+
+li:nth-child(even) {
+  background-color: rgb(234, 234, 234);
+}
+
+form {
+  width: 12rem;
+  max-width: 23rem;
+  gap: 1rem;
+}
+
+fieldset {
+  border: none;
+  gap: 1rem;
+}
+
+.button {
+  width: fit-content;
+  margin-left: auto;
+  padding: 0.1rem 0.3rem;
+  box-shadow: 3px 3px 3px black;
+  cursor: pointer;
+}
