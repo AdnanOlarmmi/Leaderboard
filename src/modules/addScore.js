@@ -41,4 +41,4 @@ const addScore = async () => {
   }, 2000);
 };
 
-export default addScore;
+
