@@ -2,7 +2,7 @@
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-- In this activity you I continued working on the Leaderboard list app, sending and receiving data from/to the Leaderboard API.
+- In this activity you I continued working on the Leaderboard list app, sending and receiving data from/to the Leaderboard API, and likewise the data is displayed orderly(descending order)
 
 > Learning objectives
 
