@@ -32,7 +32,7 @@
 
 ## Live Demo
 
-[Here](https://adnanolarmmi.github.io/leaderboard/) is the live demo.
+[Here](https://adnanolarmmi.github.io/Leaderboard/) is the live demo.
 
 ## Getting Started
 
