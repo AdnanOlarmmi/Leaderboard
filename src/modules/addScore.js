@@ -1,5 +1,3 @@
-import renderScores from './renderScores.js';
-
 import apiEndPoint from './config.js';
 
 const nameEl = document.querySelector('.leaderboard__name');
