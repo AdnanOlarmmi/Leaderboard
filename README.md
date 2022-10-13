@@ -2,6 +2,8 @@
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
+- In this activity you I continued working on the Leaderboard list app, sending and receiving data from/to the Leaderboard API.
+
 > Learning objectives
 
 - I Used semantic HTML tags.
@@ -16,6 +18,14 @@
 - Used JavaScript events.
 - Used objects to store and access data.
 - Communicated technical concepts to other technical people.
+- Send and receive data from an API.
+- Use API documentation.
+- Identify if an API is RESTful or not.
+
+- Here is the preview
+<p>
+ <img src="./preview.gif" />
+</p>
 
 ## Built With
 
