@@ -29,8 +29,6 @@ const addScore = async () => {
       addMsgEl.innerHTML = 'Not Successful';
     }
     addMsgEl.innerHTML = data.result;
-
-    renderScores();
     formEl.reset();
   } catch (err) {
     addMsgEl.innerHTML = 'Not Successful';
