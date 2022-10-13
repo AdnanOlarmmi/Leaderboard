@@ -10,8 +10,8 @@ const renderScores = async () => {
     if (!res.ok) {
       recentScoresEl.innerHTML = 'Server Down';
     }
-    data.result.forEach((item) => {
-      markup += `  <li><span class="recent-scores__name">${item.user}: </span><span class="recent-scores__score">${item.score}</span> </li>`;
+    data.result.forEach((item, index) => {
+      markup += `  <li class="leaderboard__player-scores flex-row"><span class="leaderboard__player-index flex-row">${index+1}</span><span class="recent-scores__name">${item.user} </span><span class="recent-scores__score">${item.score}</span> </li>`;
     });
     recentScoresEl.innerHTML = markup;
   } catch (err) {
