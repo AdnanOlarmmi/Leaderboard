@@ -15,10 +15,13 @@
 
 body {
   padding: 1rem;
+  background-color: #ff5353;
 }
 
 header {
   font-weight: bolder;
+  text-transform: uppercase;
+  color: #fff;
 }
 
 .flex-row {
@@ -37,19 +40,30 @@ main {
   justify-content: space-between;
   margin-top: 2rem;
   padding: 2em 2em;
-  border: 2px solid #ccc;
   gap: 3rem;
+  border-radius: 5px;
+  overflow: hidden;
+  color: whitesmoke;
 }
 
 .recent-scores {
-  gap: 1rem;
   width: 80vw;
+  border-radius: 10px;
+  background-color: black;
+  overflow: hidden;
+  box-shadow: 0.05rem 0.05rem 1rem rgb(81, 80, 80);
+}
+
+.recent-scores_heading {
+  color: white;
+  padding: 1rem;
 }
 
 ul {
   list-style: none;
-  border: 3px solid black;
   margin-top: 1rem;
+  background-color: red;
+  color: white;
 }
 
 li {
@@ -57,13 +71,53 @@ li {
 }
 
 li:nth-child(even) {
-  background-color: rgb(234, 234, 234);
+  background-color: rgb(242, 23, 23);
+}
+
+.leaderboard__player-index {
+  width: 23px;
+  height: 23px;
+  background-color: white;
+  color: red;
+  text-align: center;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.leaderboard__player-scores {
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.recent-scores__name {
+  width: 70%;
 }
 
 form {
   width: 12rem;
   max-width: 23rem;
   gap: 1rem;
+}
+
+input {
+  background: none;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid white;
+  color: white;
+}
+
+input:active {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid white;
+}
+
+input::placeholder {
+  color: whitesmoke;
 }
 
 fieldset {
@@ -74,9 +128,19 @@ fieldset {
 .button {
   width: fit-content;
   margin-left: auto;
-  padding: 0.1rem 0.3rem;
-  box-shadow: 3px 3px 3px black;
+  padding: 0.5rem 1rem;
+  box-shadow: 0.05rem 0.05rem 0.5rem rgb(81, 80, 80);
   cursor: pointer;
+  background: linear-gradient(to right, #ffb369 0%, #ff4272 100%);
+  border-radius: 200px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  border: none;
+}
+
+.button:active {
+  box-shadow: 0.05rem 0.05rem 0.5rem rgb(240, 240, 240);
+  scale: 0.95;
 }
 
 .leaderboard__add-msg {

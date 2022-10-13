@@ -21,6 +21,7 @@
 - Send and receive data from an API.
 - Use API documentation.
 - Identify if an API is RESTful or not.
+- Understand how to use medium-fidelity wireframes to create a UI.
 
 - Here is the preview
 <p>
@@ -62,7 +63,7 @@ To get a local copy of this project up and running on your local machine follow 
 - Clone this repository or download the Zip folder:
 
 ```
-git clone https://github.com/AdnanOlarmmi/leaderboard.git
+git clone https://github.com/AdnanOlarmmi/Leaderboard.git
 ```
 
 - Navigate to the location of the folder in your machine:
