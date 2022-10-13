@@ -49,19 +49,19 @@ main {
 .recent-scores {
   width: 80vw;
   border-radius: 10px;
-  background-color: black;
   overflow: hidden;
-  box-shadow: 0.05rem 0.05rem 1rem rgb(81, 80, 80);
+  box-shadow: 0.05rem 0.05rem 1rem rgb(255, 255, 255);
 }
 
 .recent-scores_heading {
   color: white;
+  background-color: black;
   padding: 1rem;
+  align-items: center;
 }
 
 ul {
   list-style: none;
-  margin-top: 1rem;
   background-color: red;
   color: white;
 }
@@ -90,10 +90,11 @@ li:nth-child(even) {
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
+  gap: 2rem;
 }
 
 .recent-scores__name {
-  width: 70%;
+  flex-grow: 1;
 }
 
 form {
@@ -129,7 +130,7 @@ fieldset {
   width: fit-content;
   margin-left: auto;
   padding: 0.5rem 1rem;
-  box-shadow: 0.05rem 0.05rem 0.5rem rgb(81, 80, 80);
+  box-shadow: 0.05rem 0.05rem 0.5rem rgb(244, 237, 237);
   cursor: pointer;
   background: linear-gradient(to right, #ffb369 0%, #ff4272 100%);
   border-radius: 200px;
