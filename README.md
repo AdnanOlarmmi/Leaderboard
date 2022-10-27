@@ -26,7 +26,7 @@ This is a scoreboard showing the names and current scores of leading competitors
 - Here is the preview
 > |     | Mobile version                      | Desktop version                      |     |
 > | --- | ----------------------------------- | ------------------------------------ | --- |
-> |     | ![Screenshot1](./src/images/mobile.gif) | ![Screenshot2](./src/images/desktop.gif) |
+> |     | ![Screenshot1](./images/mobile.gif) | ![Screenshot2](./images/desktop.gif) |
 
 ## Built With
 
