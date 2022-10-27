@@ -4,25 +4,6 @@
 
 This is a scoreboard showing the names and current scores of leading competitors. It is also organized by score, with the highest score at the top.
 
-> Learning objectives
-
-- I Used semantic HTML tags.
-- I Applied best practices in HTML code.
-- Used CSS selectors correctly.
-- Used CSS box model.
-- Used Flexbox to place elements on the page.
-- Demonstrated ability to create UIs adaptable to different screen sizes using media queries.
-- Used GitHub Pages to deploy web pages.
-- Applied JavaScript best practices and language style guides in code.
-- Used JavaScript to manipulate DOM elements.
-- Used JavaScript events.
-- Used objects to store and access data.
-- Communicated technical concepts to other technical people.
-- Send and receive data from an API.
-- Use API documentation.
-- Identify if an API is RESTful or not.
-- Understand how to use medium-fidelity wireframes to create a UI.
-
 - Here is the preview
 > |     | Mobile version                      | Desktop version                      |     |
 > | --- | ----------------------------------- | ------------------------------------ | --- |
@@ -66,7 +47,7 @@ git clone https://github.com/AdnanOlarmmi/Leaderboard.git
 
 - Navigate to the location of the folder in your machine:
 
-**``you@your-Pc-name:~$ cd <folder>``**
+**``you@your-Pc-name:~$ cd Leaderboard``**
 
 ### Usage
 
@@ -99,11 +80,10 @@ npx eslint .
 - For more information about publishing sources, see "[About github page](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#publishing-sources-for-github-pages-sites)"
 
 ## Author
-### 👤 Author 1
 👤 **Is-haq Adnan Olamilekan**
 
 - GitHub: [@AdnanOlarmmi](https://github.com/adnanolarmmi)
-- Twitter: [@AdnanIs71755510](https://twitter.com/AdnanIs71755510)
+- Twitter: [@AdnanIshaqOla](https://twitter.com/AdnanIshaqOla)
 - LinkedIn: [Adnan (Olamilekan) Is-haq](https://linkedin.com/in/adnan-is-haq-olamilekan)
 
 ## Credits
