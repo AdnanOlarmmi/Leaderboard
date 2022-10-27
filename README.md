@@ -51,8 +51,6 @@ To get a local copy of this project up and running on your local machine follow 
 
 ### Prerequisites
 
-- Basic html, css and medium Javascript know how.
-- Git installation
 - A text editor 
 - A terminal
 - A web browser to view output e.g Google Chrome

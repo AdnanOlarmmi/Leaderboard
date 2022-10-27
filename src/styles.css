@@ -1,7 +1,8 @@
-@font-face {
-  font-family: balsamiq;
-  src: url(../fonts/BalsamiqSans-Regular.ttf);
-  font-weight: bold;
+:root {
+  --backgroundColor: #ff5353;
+  --textColor: #fff;
+  --mainBackgroundColor: red;
+  --mainSecondaryColor: rgb(242, 23, 23);
 }
 
 *,
@@ -10,18 +11,36 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: balsamiq, sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   padding: 1rem;
-  background-color: #ff5353;
+  background-color: var(--backgroundColor);
+  color: var(--textColor);
+  font-size: large;
+  font-weight: 600;
+}
+
+a {
+  color: var(--textColor);
 }
 
 header {
   font-weight: bolder;
-  text-transform: uppercase;
-  color: #fff;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+img {
+  width: 3rem;
+  height: 3rem;
+  border: 2px solid var(--textColor);
+  padding: 0.1rem;
 }
 
 .flex-row {
@@ -43,18 +62,16 @@ main {
   gap: 3rem;
   border-radius: 5px;
   overflow: hidden;
-  color: whitesmoke;
 }
 
 .recent-scores {
   width: 80vw;
   border-radius: 10px;
   overflow: hidden;
-  box-shadow: 0.05rem 0.05rem 1rem rgb(255, 255, 255);
+  box-shadow: 0.05rem 0.05rem 0.5rem rgb(232, 181, 181);
 }
 
 .recent-scores_heading {
-  color: white;
   background-color: black;
   padding: 1rem;
   align-items: center;
@@ -62,8 +79,10 @@ main {
 
 ul {
   list-style: none;
-  background-color: red;
-  color: white;
+  background-color: var(--mainBackgroundColor);
+  text-transform: capitalize;
+  font-size: large;
+  font-weight: 600;
 }
 
 li {
@@ -71,19 +90,20 @@ li {
 }
 
 li:nth-child(even) {
-  background-color: rgb(242, 23, 23);
+  background-color: var(--mainSecondaryColor);
 }
 
 .leaderboard__player-index {
   width: 23px;
   height: 23px;
-  background-color: white;
-  color: red;
+  background-color: var(--textColor);
+  color: var(--mainBackgroundColor);
   text-align: center;
   border-radius: 50%;
   justify-content: center;
   align-items: center;
   padding: 1rem;
+  font-size: 0.9rem;
 }
 
 .leaderboard__player-scores {
@@ -107,18 +127,18 @@ input {
   background: none;
   border: none;
   outline: none;
-  border-bottom: 1px solid white;
-  color: white;
+  border-bottom: 1px solid var(--textColor);
+  color: var(--textColor);
 }
 
 input:active {
   border: none;
   outline: none;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid var(--textColor);
 }
 
 input::placeholder {
-  color: whitesmoke;
+  color: var(--textColor);
 }
 
 fieldset {
@@ -146,6 +166,11 @@ fieldset {
 
 .leaderboard__add-msg {
   height: 2rem;
+}
+
+footer {
+  margin-top: auto;
+  text-align: center;
 }
 
 @media only screen and (min-width: 650px) {

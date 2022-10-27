@@ -7,12 +7,13 @@ const renderScores = async () => {
 
   try {
     const res = await fetch(apiEndPoint);
+    console.log(res);
     const data = await res.json();
     if (!res.ok) {
       recentScoresEl.innerHTML = 'Server Down';
     }
     data.result.sort((a, b) => b.score - a.score).forEach((item, index) => {
-      markup += `<li class="leaderboard__player-scores flex-row"><span class="leaderboard__player-index flex-row">${index + 1}</span><span class="recent-scores__name">${item.user} </span><span class="recent-scores__score">${item.score}</span></li>`;
+      markup += `<li class="leaderboard__player-scores flex-row"><span class="leaderboard__player-index flex-row">${index + 1}</span><span class="recent-scores__name">${item.user.toLowerCase()} </span><span class="recent-scores__score">${item.score}</span></li>`;
     });
     recentScoresEl.innerHTML = markup;
     addMsgEl.innerHTML = 'Scores Updated Successfully';
