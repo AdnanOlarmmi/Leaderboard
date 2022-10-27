@@ -21,7 +21,7 @@ body {
   padding: 1rem;
   background-color: var(--backgroundColor);
   color: var(--textColor);
-  font-size: large;
+  font-size: 0.7rem;
   font-weight: 600;
 }
 
