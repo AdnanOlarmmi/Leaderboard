@@ -2,7 +2,7 @@
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-- In this activity you I continued working on the Leaderboard list app, sending and receiving data from/to the Leaderboard API, and likewise the data is displayed orderly(descending order)
+This is a scoreboard showing the names and current scores of leading competitors. It is also organized by score, with the highest score at the top.
 
 > Learning objectives
 
