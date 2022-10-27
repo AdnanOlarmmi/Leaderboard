@@ -24,9 +24,9 @@ This is a scoreboard showing the names and current scores of leading competitors
 - Understand how to use medium-fidelity wireframes to create a UI.
 
 - Here is the preview
-<p>
- <img src="./preview.gif" />
-</p>
+> |     | Mobile version                      | Desktop version                      |     |
+> | --- | ----------------------------------- | ------------------------------------ | --- |
+> |     | ![Screenshot1](./src/images/mobile.gif) | ![Screenshot2](./src/images/desktop.gif) |
 
 ## Built With
 
