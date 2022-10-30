@@ -52,7 +52,11 @@ git clone https://github.com/AdnanOlarmmi/Leaderboard.git
 ### Usage
 
 - After Cloning this repo to your local machine
-- Open the `index.html` in your browser
+- Run 
+```
+npm start
+```
+in your terminal.
 
 ### Run Tests
 To track linter errors locally follow these steps:  
