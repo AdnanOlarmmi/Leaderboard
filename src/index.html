@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>LeaderBoard</title>
+	</head>
+	<body>
+		<header><img src="https://cdn-icons-png.flaticon.com/512/1426/1426758.png" alt=""><h1>Leaderboard</h1></header>
+		<main>
+			<section class="recent-scores">
+				<div class="recent-scores_heading flex-row">
+					<h2 class="recent-scores_title">Recent scores</h2>
+					<button class="recent-scores__refresh button">Refresh</button>
+				</div>
+				<ul class="recent-scores__scores"></ul>
+			</section>
+			<form class="flex-column" action="">
+				<legend>Add your score</legend>
+				<fieldset class="flex-column">
+					<input
+						type="text"
+						class="leaderboard__name"
+						placeholder="Your name"
+					/>
+					<input
+						type="number"
+						placeholder="Your score"
+						class="leaderboard__score"
+					/>
+					<button type="submit"
+					value="Submit"
+					class="button leaderboard__submit-score">Submit</button>
+						
+				</fieldset>
+                <p class="leaderboard__add-msg"></p>
+			</form>
+		</main>
+		<footer> <h3 class="creator">Created by <a href="https://github.com/AdnanOlarmmi">Adnan</a> under the MIT licence.</h3></footer>
+	</body>
+</html>
