@@ -1,45 +1,86 @@
-# Leaderboard
+<a name="readme-top"></a>
 
-![](https://img.shields.io/badge/Microverse-blueviolet)
+<div align="center">
 
-This is a scoreboard showing the names and current scores of leading competitors. It is also organized by score, with the highest score at the top.
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
 
-- Here is the preview
+  <h3><b>Microverse README Template</b></h3>
+
+</div>
+
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#deployment)
+- [👤 Author](#author)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ](#faq)
+- [📝 License](#license)
+
+# 📖 Leaderboard <a name="about-project"></a>
+
+**Leaderboard** is a scoreboard showing the names and current scores of leading competitors. It is also organized by scores in descending order.
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics">HTML5</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics">CSS3</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics">JavaScript</a></li>
+  </ul>
+</details>
+
+### Key Features <a name="key-features"></a>
+
+- **Responsive Design.**
+- **Pixel Perfect design.**
+- **API Call.**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Here is the link to the live experience](https://adnanolarmmi.github.io/Leaderboard/).
+
 > |     | Mobile version                      | Desktop version                      |     |
 > | --- | ----------------------------------- | ------------------------------------ | --- |
-> |     | ![Screenshot1](./images/mobile.gif) | ![Screenshot2](./images/desktop.gif) |
+> |     | ![Screenshot1](./mobile.gif) | ![Screenshot2](./desktop.gif) |
 
-## Built With
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-- HTML
-- CSS
-- JAVASCRIPT
+## 💻 Getting Started <a name="getting-started"></a>
 
-## Additional Tools
-
-- WebHint
-- Stylelint
-- ESlint
-- Node Packet Manager
-
-## Live Demo
-
-[Here](https://adnanolarmmi.github.io/Leaderboard/) is the live demo.
-
-## Getting Started
-
-To get a local copy of this project up and running on your local machine follow the steps below.
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-- A text editor 
-- A terminal
-- A web browser to view output e.g Google Chrome
-- An IDE e.g Visual studio code
+In order to run this project you need:
+
+- A web browser to view output e.g [Google Chrome](https://www.google.com/chrome/).
+- An IDE e.g [Visual studio code](https://code.visualstudio.com/).
+- A terminal.
 
 ### Setup
 
-- Clone this repository or download the Zip folder:
+Clone this repository to your desired folder or download the Zip folder:
 
 ```
 git clone https://github.com/AdnanOlarmmi/Leaderboard.git
@@ -49,67 +90,104 @@ git clone https://github.com/AdnanOlarmmi/Leaderboard.git
 
 **``you@your-Pc-name:~$ cd Leaderboard``**
 
-### Usage
+### Install
 
-- After Cloning this repo to your local machine
-- Download all the dependencies run:
+Install all dependencies:
+
 ```
 npm install
 ```
-- To get it running on your default browser and local host, run:
-```
-npm start
-```
 
-### Run Tests
-To track linter errors locally follow these steps:  
+### Usage
 
-Track HTML linter errors run:
+To run the project, follow these instructions:
+
+- After Cloning this repo to your local machine.
+- Open the `index.html` in your browser.
+
+### Run tests
+
+To run tests, run the following command:
+
+- Track HTML linter errors run:
 ```
 npx hint .
 ```
-Track CSS linter errors run:
+- Track CSS linter errors run:
 ```
 npx stylelint "**/*.{css,scss}"
 ```
-Track JavaScript linter errors run:
+- Track JavaScript linter errors run:
 ```
 npx eslint .
 ```
 
-### Deployment
+### Deployment <a name="deployment"></a>
 
-- I used GitHub Pages to deploy my website
-- For more information about publishing sources, see "[About github page](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#publishing-sources-for-github-pages-sites)"
+You can deploy this project using: GitHub Pages,
+- I used GitHub Pages to deploy my website.
+- For more information about publishing sources, see "[About GitHub pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#publishing-sources-for-github-pages-sites)".
 
-## Author
-👤 **Is-haq Adnan Olamilekan**
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 👤 Author <a name="author"></a>
+
+👤 **Is-haq, Adnan Olamilekan**
 
 - GitHub: [@AdnanOlarmmi](https://github.com/adnanolarmmi)
 - Twitter: [@AdnanIshaqOla](https://twitter.com/AdnanIshaqOla)
 - LinkedIn: [Adnan (Olamilekan) Is-haq](https://linkedin.com/in/adnan-is-haq-olamilekan)
 
-## Credits
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-- The original design ideal from Microverse💕
-- Project from [Microverse](https://bit.ly/MicroverseTN) JavaScript module
+## 🔭 Future Features <a name="future-features"></a>
 
-## Contributing
+- [ ] **Implement button to switch sort type (ascending or descending).**
+- [ ] **Implement delete score feature.**
+- [ ] **Add differnt pages for different competitions.**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
-Feel free to check the [issues page](https://github.com/AdnanOlarmmi/leaderboard/issues).
 
-## Show your support
+Feel free to check the [issues page](../../issues/).
 
-Give a ⭐️ if you like this project and how we manage to build it!
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Acknowledgments
+## ⭐️ Show your support <a name="support"></a>
 
+
+Give a ⭐️ if you like this project and how I managed to build it!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+- The original design ideal from Microverse💕.
+- Project from [Microverse](https://bit.ly/MicroverseTN) JavaScript module.
 - Thanks to the Microverse team for the great curriculum.
 - Thanks to the Code Reviewer(s) for the insightful feedbacks.
 - A great thanks to My coding partner(s), morning session team, and standup team for their contributions.
 - Hat tip to anyone whose code was used.
 
-## 📝 License
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This project is [MIT](LICENSE) licensed
+## ❓ FAQ <a name="faq"></a>
+
+- **Can I fork and reuse the repository**
+
+  - Yes please, feel free.
+
+- **Can I improve the repository, and my changes will be accepted if they are good?**
+
+  - yes please, nice ideas are welcome please.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
