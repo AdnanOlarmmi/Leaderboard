@@ -147,7 +147,7 @@ You can deploy this project using: GitHub Pages,
 
 - [ ] **Implement button to switch sort type (ascending or descending).**
 - [ ] **Implement delete score feature.**
-- [ ] **Add differnt pages for different competitions.**
+- [ ] **Add different pages for different competitions.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
