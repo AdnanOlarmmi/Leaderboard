@@ -186,7 +186,7 @@ Give a ⭐️ if you like this project and how I managed to build it!
 
 - **Can I improve the repository, and my changes will be accepted if they are good?**
 
-  - Yes please, nice ideas are welcome please.
+  - Yes please, nice ideas are welcome, please.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
