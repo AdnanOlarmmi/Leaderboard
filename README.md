@@ -104,7 +104,10 @@ npm install
 To run the project, follow these instructions:
 
 - After Cloning this repo to your local machine.
-- Open the index.html in your browser.
+- To get it running on your default browser and local host, run:
+```
+npm start
+```
 
 ### Run tests
 
