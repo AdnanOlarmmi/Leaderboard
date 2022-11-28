@@ -33,7 +33,7 @@
 
 # 📖 Leaderboard <a name="about-project"></a>
 
-**Leaderboard** is a scoreboard showing the names and current scores of leading competitors. It is also organized by scores in descending order.
+**Leaderboard** is a scoreboard showing the names and current scores of leading competitors stored and fetched from a Database with an API. It is also organized by scores in descending order.
 
 ## 🛠 Built With <a name="built-with"></a>
 
