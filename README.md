@@ -95,7 +95,7 @@ git clone https://github.com/AdnanOlarmmi/Leaderboard.git
 
 ### Install
 
-Install all dependencies:
+To install all dependencies, run:
 
 ```
 npm install
