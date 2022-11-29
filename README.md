@@ -33,7 +33,7 @@
 
 # 📖 Leaderboard <a name="about-project"></a>
 
-**Leaderboard** is a scoreboard showing the names and current scores of leading competitors. It is also organized by scores in descending order.
+**Leaderboard** is a scoreboard showing the names and current scores of leading competitors stored and fetched from a Database with an API. It is also organized by scores in descending order.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -77,7 +77,9 @@ In order to run this project you need:
 
 - A web browser to view output e.g [Google Chrome](https://www.google.com/chrome/).
 - An IDE e.g [Visual studio code](https://code.visualstudio.com/).
-- A terminal.
+- `node` should be installed in your local machine, [node website](https://nodejs.org/en/download/).
+- Install the `npm` package manager use this [to install both node and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
+- [A terminal](https://code.visualstudio.com/docs/terminal/basics).
 
 ### Setup
 
@@ -93,7 +95,7 @@ git clone https://github.com/AdnanOlarmmi/Leaderboard.git
 
 ### Install
 
-Install all dependencies:
+To install all dependencies, run:
 
 ```
 npm install
@@ -186,7 +188,7 @@ Give a ⭐️ if you like this project and how I managed to build it!
 
 - **Can I improve the repository, and my changes will be accepted if they are good?**
 
-  - yes please, nice ideas are welcome please.
+  - Yes please, nice ideas are welcome, please.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
